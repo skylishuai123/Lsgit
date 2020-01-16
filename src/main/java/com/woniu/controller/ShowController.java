@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ShowController {
     @RequestMapping("/c")
     public String a(){
+        System.out.println(123);
         return "1";
     }
 }
